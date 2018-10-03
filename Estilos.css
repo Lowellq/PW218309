@@ -1,0 +1,40 @@
+body{
+	background: rgb(60,100,253);
+	color: black;
+	max-width: 1024px;
+	margin: 0px auto;
+}
+header{
+	background:  rgb(180,220,210);
+	border-radius: 5px;
+	color: white;
+	text-align: center;
+	/*padding-top: 20px;*/
+	padding:  10px 0px 0px 0px;
+
+}
+header img {
+	width: 150px;
+}
+ header nav ul li {
+ 	background: orange;
+ 	
+ 	/*Dar sombra a los botones*/
+ 	border-radius: 10px;
+    
+    /* dar sombras*/
+    box-shadow: 5px 5px red;
+
+ 	color: black;
+	/*display: block;*/
+ 	display: inline-block;
+ 	margin-right: 10px;
+ 	padding: 10px;
+ 	width:  118px;
+ }
+
+ header nav ul li:hover{
+ 	background: white;
+	box-shadow: 5px 5px blue;
+ 	color: green;
+ }
