@@ -1,0 +1,50 @@
+body{
+	
+	border: 1px solid blue;
+	margin: 0px auto;
+	max-width: 1024px;
+}
+
+header{
+	/*Fondo de la imagen*/
+	background: #B3D8EB;
+}
+
+#Logo{
+	margin-top: -160px;
+}
+
+header nav{
+	background: rgb(1,111,200);
+	border-radius: 5px;
+	margin: 0 auto;
+	padding: 2px 0px;
+	width: 99%;
+
+
+}
+
+header nav li{
+	color: white;
+	/*Acomoda los menu en horizontal*/
+	display: inline-block;
+	/*Separacion entre los menus */
+	margin-right: 30px;
+}
+
+header form{
+	float: right;
+	margin-right: 20px;
+	margin-top: -40px;
+}
+header form input {
+	border-radius:  5px;
+	height: 30px;
+}
+header form input[type="button"]{
+	color: white;
+	background: green;
+	border: 1px solid green;
+}
+
+

@@ -1,0 +1,41 @@
+/*https://htmlcolorcodes.com/es/*/
+body{
+	background: rgb(114, 244, 73);
+	color: blue;
+	max-width: 1024px;
+	margin: 10px auto;
+}
+header{
+	background:  rgb(192, 207, 188);
+	border-radius: 5px;
+	color: black;
+	text-align: center;
+	/*padding-top: 20px;*/
+	padding:  10px 0px 0px 0px;
+
+}
+header img {
+	width: 200px;
+}
+ header nav ul li {
+ 	background: rgb(255, 255, 255);
+ 	
+ 	/*Dar sombra a los botones*/
+ 	border-radius: 5px;
+    
+    /* dar sombras*/
+    box-shadow: 3px 3px rgb(243, 17, 243);
+
+ 	color: black;
+	/*display: block;*/
+ 	display: inline-block;
+ 	margin-right: 40px;
+ 	padding: 5px;
+ 	width:  120px;
+ }
+
+ header nav ul li:hover{
+ 	background: green;
+	box-shadow: 3px 3px rgb(34, 237, 219);
+ 	color: black;
+ }

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Audio y video en html 5</title>
+	<link rel="stylesheet" type="text/css" href="ccs/audiovideo.css">
+</head>
+<body>
+	Etiquetas para audio y video <br><p>
+		
+		<!-- <audio controls> 
+		<audio controls autoplay>  -->
+		<audio controls >	
+			<source src="Multimedia/Audios/musica.mp3">
+			<source src="Multimedia/Audios/musica.mp4">
+		</audio>
+
+		<!-- -->
+		<video controls autoplay loop>
+			<source src="Multimedia/Videos/chrome_Imf.mp4" type="">
+			<source src="Multimedia/videos/chrome_Imf.ogv" type="">
+			<source src="Multimedia/videos/chrome_Imf.webm" type="">	
+		</video>
+
+		
+		<video controls autoplay loop preload="auto">
+			<source src="Multimedia/videos/html5.mp4">		
+			<source src="Multimedia/videos/html5.webm" >	
+		</video>
+
+	<!---Algunos de los atributos que soporta la etiqueta <audio> son:
+
+	controls, que nos permite una representación gráfica de un reproductor, con sus correspondientes controles de pausa, play, volumen y una línea de tiempo.
+
+	autoplay, si se desea que empiece a reproducirse cuando se haya cargado el DOM.
+
+	preload que puede tomar alguno de los siguientes valores [“none”, “metadata”, “auto”], para precargarlo. Con metadata sólo se cargarían los metadatos (info, duración del fichero, etc…)
+
+	loop: para que se repita una y otra vez
+
+	mediagroup: para agrupar y hacer listas de reproducción.
+
+	Y hay numerosos eventos y propiedades vinculados a esta etiqueta que nos permiten jugar, siendo los siguientes los más comunes.->
+
+
+</body>
+</html>

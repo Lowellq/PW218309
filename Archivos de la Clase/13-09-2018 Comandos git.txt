@@ -1,0 +1,21 @@
+Comandos GIT:
+git init : Inicializa la carpeta del proyecto para que pueda ser rastreada por GIT. Crea una carpeta oculta .git.
+Para identificarse ante GIT:
+Tu nombre de usuario GitHub
+git config --global user.name "John Doe"
+El correo electrónico de registro en GitHub.
+git config --global user.email johndoe@example.com
+git status: Muestra los archivos/carpetas modificados/creados de proyecto.
+git add -A : Agrega todos los archivos del área de trabajo al área de preparación para el siguiente commit.
+git commit -m "Mensaje de lo que se ha hecho hasta la fecha": Asegura un punto en la vida del proyecto, una funcionalidad, mantenimiento o mejora.
+git log: Muestra todos los commits hechos en el proyecto.
+git branch: Muestra las ramas del proyecto. Por defecto es master.
+git branch rama: Crea una rama.
+git checkout códigoCommit: Regresa/Avanza en el tiempo a través de los commits.
+git checkout rama: Cambia de rama a la que se especifica como parámetro.
+git merge rama: Une una rama a otra. Lo habitual es que se agreguen ramas a la rama principal (master), por lo que el procedimiento es:
+git checkout master <--- nos posicionamos en la rama master.
+git merge rama <--- ponemos la rama a unir a la master.
+Pueden existir dos resultados en un merge: 
+Fast-Forward: Union del código de las dos ramas de forma automática, sin conflictos de código.
+Manual Merge: Se cambiaron las mismas líneas de código y GIT no sabe cuales son las que deben de quedar, por lo que se tienen que corregir de forma manual en el código, y hacer commit de nuevo con los cambios.
