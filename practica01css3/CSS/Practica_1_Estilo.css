@@ -1,8 +1,10 @@
 body{
 	
-	border: 1px solid blue;
+	/*border: 1px solid red;*/
 	margin: 0px auto;
 	max-width: 1024px;
+	/*Tamaño por defecto de la letra en cualquier navegador*/
+	font-size: 16px; /*1em*/
 }
 
 header{
@@ -18,8 +20,9 @@ header nav{
 	background: rgb(1,111,200);
 	border-radius: 5px;
 	margin: 0 auto;
-	padding: 2px 0px;
+	padding: 1px 0px;
 	width: 99%;
+
 
 
 }
@@ -29,12 +32,12 @@ header nav li{
 	/*Acomoda los menu en horizontal*/
 	display: inline-block;
 	/*Separacion entre los menus */
-	margin-right: 30px;
+	margin-right: 35px;
 }
 
 header form{
 	float: right;
-	margin-right: 20px;
+	margin-right: 30px;
 	margin-top: -40px;
 }
 header form input {
@@ -46,5 +49,58 @@ header form input[type="button"]{
 	background: green;
 	border: 1px solid green;
 }
+
+#Seccion01
+{
+	margin-top: 15px;
+}
+#Seccion01 article{
+	text-align: center;
+}
+#Seccion01 article img{
+	border: 5px solid rgba(150,150,150,0.5);
+}
+
+#Seccion02 article{
+
+	display: inline-block;
+	padding-bottom: 10px;
+	vertical-align: top;
+	width: 33%;
+
+}
+#Seccion02 article video{
+	
+	width: 340px;
+	height: 200px;
+}
+#Seccion02 article input[type="submit"]{
+	background: white;
+	border-radius: 5px;
+	color: blue;
+	height: 25px;
+	margin-left: 130px;
+}
+
+/*Negritas*/
+.nito{
+	font-weight: bold;
+}
+
+/*Asi se llaman las class*/
+.unaSeccion{
+	font-size: 3em; /*3*16*/
+}
+.otraSeccion{
+	font-size: 1.5em; /*1.5*16*/
+}
+
+#Pie{
+	border: 1px solid black;
+	padding: 10px 10px 20px 10px;
+	color: blue;
+	margin: 40px 0px 0px 0px;
+}
+
 
 

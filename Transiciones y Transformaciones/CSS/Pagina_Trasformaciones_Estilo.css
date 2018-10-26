@@ -1,0 +1,97 @@
+article{
+	background: greenyellow;
+	border: 2px solid black;
+	color: black;
+	margin: 20px 5px;
+	padding: 15px;
+	width: 400PX;
+	text-align: center;;
+	/*Tiempo que tardara el articulo en moverse para que no sea tan violenta*/
+	transition: all .1s linear;
+	-moz-transition: all 1s linear;
+	-ms-transition: all 1s linear;
+	-o-transition: all 1s linear;
+	-webkit-transition: all 1s linear;
+	
+	;
+	;
+	;
+}
+article p{
+	font: 30px tahoma;
+	font-weight: bold; /*Negritas*/
+	widows: 100%;
+}
+
+
+/*Cambio automatico*/
+/*
+article:hover{
+	height: 800px;
+	width:400px;
+}
+
+article:hover{
+	background: black;
+	color: greenyellow;
+}
+*/
+
+/*Trasnformacion o movimiento de un elemento
+article:hover{
+	background: black;
+	color: greenyellow;
+	transform: translate(150px,300px);
+	-moz-transform: translate(150px,300px);
+	-ms-transform: translate(150px,300px);
+	-o-transform: translate(150px,300px);
+	-webkit-transform: translate(150px,300px);
+
+}
+*/
+
+/*
+article:hover{
+	background: black;
+	color:greenyellow;
+	-moz-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+}
+*/
+
+/*
+article:hover{
+	background: black;
+	color:greenyellow;
+	-moz-transform: scale(1.5);
+	-ms-transform: scale(1.5);
+	-o-transform: scale(1.5);
+	-webkit-transform: scale(1.5);
+}
+*/
+
+
+article:hover{
+	background: black;
+	color:greenyellow;
+	-moz-transform: skew(10deg,10deg);
+	-ms-transform: skew(10deg,10deg);
+	-o-transform: skew(10deg,10deg);
+	-webkit-transform: skew(10deg,10deg);
+}
+
+
+/*
+article:hover{
+	background: black;
+	color: greenyellow;
+	transform: translate(150px,300px) rotate(360deg);
+	-moz-transform: translate(150px,300px)rotate(360deg);
+	-ms-transform: translate(150px,300px)rotate(360deg);
+	-o-transform: translate(150px,300px)rotate(360deg);
+	-webkit-transform: translate(150px,300px)rotate(360deg);
+
+}
+*/

@@ -1,0 +1,139 @@
+body{
+	
+	margin: 0px auto;
+	max-width: 1024px;
+	/*Tamaño por defecto de la letra en cualquier navegador*/
+	font-size: 16px; /*1em*/
+}
+
+#Logo{
+	padding-top: 20px;
+	padding-left: 0px;
+	width: 130px;
+}
+
+	header nav ul li{
+	display: inline-block;
+	padding-top: 30px;
+	padding-right: 60px;
+	font-weight: bold;
+	margin-left: -40px;
+	}
+
+#Logo_Rojo{
+    position: relative;
+	top: -170px;
+	left: 900px;
+	height: 30px;
+	width: 30px;
+}
+#Bandera{
+	position: relative;
+	top: -170px;
+	left: 910px;
+	height: 30px;
+	width: 30px;
+}
+
+#Mundo{
+	position: relative;
+	top:-170px;
+	left: 920px;
+	width: 30px;
+	height: 30px;
+}
+
+#Buy{
+	position: relative;
+	top:-50px;
+	left: 400px;
+	width: 50px;
+	height: 50px;
+}
+
+#Gotoshop{
+	position: relative;
+	top:-95px;
+	left: 630px;
+	height: 70px;
+	width: 180px;
+}
+
+header{
+
+	
+	border-bottom-style: dashed;
+	border-width: 1px;
+
+}
+
+#PrimeraS article{
+	display: inline-block;
+	
+	height: 380px;
+	width: 300px;
+
+	padding-left: 10px;
+	
+	vertical-align: top;
+}
+
+.nito{
+	font-weight: bold;
+}
+
+.black{
+	color: black;
+	font-size: 30px;
+}
+.green{
+	color: green;
+	font-size: 30px;
+}
+
+
+/*
+;
+}
+/*
+
+#centro01{
+border-bottom-style: dashed;
+	border-width: 1px;
+width: 650px;
+}
+
+#textoart01{
+
+width: 650px;
+}
+
+
+
+
+
+
+#video01{
+width: 300px;
+height: 200px;
+}
+
+#video02{
+width: 300px;
+height: 200px;
+}
+
+#imagenesart01{
+width: 500px;
+}
+.blacknito{
+font-size: 80px;
+}
+.greennito{
+font-size: 80px;
+color: rgb(0, 182, 0);
+}
+
+li{
+	font-style: bold;
+}

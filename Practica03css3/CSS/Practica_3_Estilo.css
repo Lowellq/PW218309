@@ -1,0 +1,131 @@
+body{
+	/*Tamaño por defecto de la letra en cualquier navegador*/
+	background: rgb(55,55,55);
+	color: white;
+	font-size: 16px; /*1em*/
+	border: 1px solid black;
+	margin: 0px auto; 
+	max-width: 2008px;
+}
+
+header{
+ 
+	background: rgb(240,240,240);
+	padding-bottom: 15px;
+	padding-left: 15px;
+	padding-top: 15px;
+	}
+
+header img{
+	margin-top: 0px;
+	margin-left: 250px;
+	height: 50px;
+	width: 1050px;
+	
+}	
+
+header input{
+	height: 40px;
+	width: 150px;
+	vertical-align: top;
+
+	position: relative;
+	top: -50px;
+	left: 50px;
+} 
+
+#SeccionC{
+	background: rgb(43,43,43);
+}
+
+#SeccionC article{
+	margin-top: 10px;
+	display: inline-block;
+	height: 380px;
+	width: 223px;
+	vertical-align: top;
+	
+
+	margin-right: -4px;
+	padding:20px 20px 20px 20px;
+}
+
+#SeccionC ul{
+	/*Quitamos viñetas (bullets)*/
+	list-style: none;
+}
+#SeccionC ul li{
+	font-size: 1.5em;
+}
+
+#A1{
+	line-height: 36px;
+}
+#A1 img{
+	width: 250PX;
+	height: 120PX;
+
+}
+
+#A2{
+	background: rgb(180,208,82);
+}
+#A3{
+	background: red;
+}
+#A4{
+	background: rgb(212,45,63);
+}
+
+.A5{
+	background: rgb(228,228,228);
+}
+
+#O1 article{
+	margin-top: 10px;
+	display: inline-block;
+	width: 30%;
+	height: 280px;
+	vertical-align: top;
+	padding-left: 40px;
+
+
+}
+#O1 img{
+	margin-left: 10px;
+	width: 300px;
+	height: 50px;
+	padding-bottom: 15px; 
+	border-bottom-style: dashed;
+	border-width: 1px;
+}
+
+.nito{
+	font-size: 28px;
+	font-weight: bold;
+}
+
+
+
+.MORE{
+	font-weight: bold;
+	position: relative;
+	top: 80px;
+	padding-left: 76px;
+}
+
+.MOR{
+	font-weight: bold;
+	position: relative;
+	top: 80px;
+	padding-left: 30px;
+}
+
+.MO{
+	font-weight: bold;
+	position: relative;
+	top: 80px;
+	padding-left: 60px;
+}
+
+
