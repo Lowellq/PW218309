@@ -104,8 +104,8 @@ header nav ul li{
 	width: 23%;
 }
 #Tercero article img{
-	/*Alineación vertical del texto*/
-	vertical-align: middle;
+	/*Alineación vertical del texto
+	vertical-align: middle;*/
 }
 
 .Save{
