@@ -1,0 +1,24 @@
+{
+  "name": "nuevo_proyecto",
+  "version": "0.0.0",
+  "description": "Aprender a instalar paquetes de node y proyectos",
+  "main": "Main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron.", 
+    "empaqueta": "electron-packager .Calculadora  "
+  },
+  "keywords": [
+    "inicio",
+    "node",
+    "npm",
+    "pw"
+  ],
+  "author": "Jesus Lowell Quinonez Rojo",
+  "license": "MIT",
+  "devDependencies": {
+    "asar": "^0.14.5",
+    "electron": "^3.0.8",
+    "electron-require": "^0.3.0"
+  }
+}
